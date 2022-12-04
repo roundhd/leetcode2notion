@@ -1,0 +1,33 @@
+{
+  "name": "lc2notion",
+  "description": "Clip Leetcode submission to Notion.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "React Extension",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["storage"],
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.leetcode.com/*", "https://*.lintcode.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "host_permissions": ["https://api.notion.com/v1/pages/"],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": "Ctrl+Shift+Y"
+    }
+  }
+}
