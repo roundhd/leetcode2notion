@@ -122,9 +122,11 @@ const addItem = async (data) => {
 		.request(options)
 		.then(function (response) {
 			console.log(response.data)
+			window.close()
 		})
 		.catch(function (error) {
 			console.error(error)
+			alert("error")
 		})
 }
 export { getDatabase, getPages, addItem }
