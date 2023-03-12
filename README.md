@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-1. add a `secret.tx` under `src` with the following 3 lines
+1. add a `secret.ts` under `src` with the following 3 lines
 
 ```
 const NOTION_KEY = "" // your integration notion key started with "secret_"
