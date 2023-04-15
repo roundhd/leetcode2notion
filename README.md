@@ -1,5 +1,12 @@
 # leetcode2notion
 
+## Prerequisite
+Create a database in Notion with minimum fields of `Name`, `Link`, `Date`, `Difficulty` and `Notes` to work with this extension. 
+You can use this [template]([url](https://team516.notion.site/6c4b24c4f502457f9c6b869e7dca2423?v=0a203e99dca84d32bc99bc9eb596f668)).
+
+<img width="1160" alt="image" src="https://user-images.githubusercontent.com/12630845/232247832-1a9cee0d-596c-4779-85d4-12860960b4bf.png">
+
+
 ## Getting Started
 
 1. add a `secret.ts` under `src` with the following 3 lines
