@@ -3,7 +3,7 @@
 ## Prerequisite
 Create a database in Notion with minimum fields of `Name`, `Link`, `Date`, `Difficulty` and `Notes` to work with this extension. 
 I have extracted the following [database template](https://team516.notion.site/6c4b24c4f502457f9c6b869e7dca2423?v=0a203e99dca84d32bc99bc9eb596f668) from one that I have previously used.
-<img width="1160" alt="image" src="https://user-images.githubusercontent.com/12630845/232247832-1a9cee0d-596c-4779-85d4-12860960b4bf.png">
+<img width="1160" alt="image" src="https://user-images.githubusercontent.com/12630845/232248655-c2c509e3-a332-4835-81dc-3411b5eb2aef.png">
 
 
 ## Getting Started
