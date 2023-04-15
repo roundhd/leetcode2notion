@@ -1,5 +1,9 @@
 # leetcode2notion
 
+This Chrome extension allows you to clip Leetcode information to your Notion database with just one click.
+<img width="698" alt="image" src="https://user-images.githubusercontent.com/12630845/232249057-1721144a-762a-4baf-8559-3a26d9c9e144.png">
+
+
 ## Prerequisite
 Create a database in Notion with minimum fields of `Name`, `Link`, `Date`, `Difficulty` and `Notes` to work with this extension. 
 I have extracted the following [database template](https://team516.notion.site/6c4b24c4f502457f9c6b869e7dca2423?v=0a203e99dca84d32bc99bc9eb596f668) from one that I have previously used.
